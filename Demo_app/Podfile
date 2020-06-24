@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+platform :ios, '12.1'
+
+target 'WizeViewML' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Demo_app
+    pod 'AWSCore'
+    pod 'AWSCognito'
+    pod 'AWSS3'
+    pod 'Overture', '~> 0.5'
+
+  target 'WizeViewMLTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WizeViewMLUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

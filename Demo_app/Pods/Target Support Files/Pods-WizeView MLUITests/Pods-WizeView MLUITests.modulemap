@@ -1,0 +1,6 @@
+framework module Pods_WizeView_MLUITests {
+  umbrella header "Pods-WizeView MLUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
